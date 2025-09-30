@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: weatherapp
-  namespace: weatherapp
+  namespace: weather-app
   labels:
     app: weatherapp
 spec:

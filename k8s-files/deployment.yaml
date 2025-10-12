@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: weatherapp
-        image: weatherapp:latest
+        image: mohsinrao51/weatherapp:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 5000

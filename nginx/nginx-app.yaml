@@ -4,7 +4,7 @@ metadata:
   name: nginx-child              # Child app name
   namespace: argocd
 spec:
-  project: default
+  project: frontend-team
   source:
     repoURL: https://github.com/mohsinrao51/weatherapp.git # Repo containing child apps(that you have forked and cloned earlier)
     targetRevision: main
